@@ -1,6 +1,7 @@
 package ru.specialist.db.dal;
 
 public class Course {
+
 	private int id;
 	private String title;
 	private int length;
