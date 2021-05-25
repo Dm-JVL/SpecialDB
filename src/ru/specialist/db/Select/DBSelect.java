@@ -16,6 +16,7 @@ public class DBSelect {
     public static final String CONNECTION_STRING =
             "jdbc:mysql://localhost:3306/web?user=root&password=demo";
 
+
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName(DRIVER_NAME);
         /**
