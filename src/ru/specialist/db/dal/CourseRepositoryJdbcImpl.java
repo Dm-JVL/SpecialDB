@@ -106,7 +106,6 @@ public class CourseRepositoryJdbcImpl implements CourseRepository, Closeable{
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}
-		
 	}
 
 }

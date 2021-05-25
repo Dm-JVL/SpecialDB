@@ -10,7 +10,6 @@ import java.sql.SQLException;
  * Пример получения метаданных из базы данных
  *
  */
-
 public class DBMetaInfo {
     public static final String DRIVER_NAME =
             "com.mysql.jdbc.Driver";

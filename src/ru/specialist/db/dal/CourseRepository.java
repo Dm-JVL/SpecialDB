@@ -8,7 +8,6 @@ public interface CourseRepository extends Closeable {
 	Course findById(int id);
 	List<Course> findAll();
 	//List<Course> findByTitle(String title);
-	
 	//Course add(Course c); // c.setId(..)
 	boolean update(Course c);
 	//boolean delete(int id);
