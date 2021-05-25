@@ -28,9 +28,8 @@ public class DBSelect {
 					+ "WHERE title LIKE '%"+search+"%' "
 					+ "ORDER BY title";
 			Statement cmd = conn.createStatement();
-
 			ResultSet result = cmd.executeQuery(sql);*/
-            CallableStatement sp = conn.prepareCall("call countCourses(?)"); //хранимая процедура
+           CallableStatement sp = conn.prepareCall("call countCourses(?)"); //хранимая процедура
 
             // IN, INOUT
             // sp.set..
