@@ -28,7 +28,7 @@ public class DBSelect {
 					+ "WHERE title LIKE '%"+search+"%' "
 					+ "ORDER BY title";
 			Statement cmd = conn.createStatement();
-			git remote add origin git@github.com:Dm-JVL/SpecialDB.git
+
 			ResultSet result = cmd.executeQuery(sql);*/
             CallableStatement sp = conn.prepareCall("call countCourses(?)"); //хранимая процедура
 
