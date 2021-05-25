@@ -30,7 +30,7 @@ public class DBSelect {
 			Statement cmd = conn.createStatement();
 			ResultSet result = cmd.executeQuery(sql);*/
             CallableStatement sp = conn.prepareCall("call countCourses(?)"); //хранимая процедура
-         // IN, INOUT
+            // IN, INOUT
             // sp.set..
             sp.execute(); //выполнение хранимой процедуры
             // OUT, INOUT
